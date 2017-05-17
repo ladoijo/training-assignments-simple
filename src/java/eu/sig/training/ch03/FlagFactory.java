@@ -40,9 +40,6 @@ public class FlagFactory {
         case RUSSIA:
             result = Arrays.asList(Color.WHITE, Color.BLUE, Color.RED);
             break;
-        case UNCLASSIFIED:
-        	result = Arrays.asList(Color.WHITE, Color.BLUE, Color.RED);
-        	break;
         default:
             result = Arrays.asList(Color.GRAY);
             break;
